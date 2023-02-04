@@ -1,13 +1,14 @@
+-- Create the database
+CREATE DATABASE SocialMediaDB;
 
 -- Use the database
-USE WhatsappDB;
+USE SocialMediaDB;
 
 -- Create the Users table
 CREATE TABLE Users (
 UserId INT PRIMARY KEY IDENTITY(1,1),
 UserName NVARCHAR(50) NOT NULL,
 PhoneNumber NVARCHAR(15) UNIQUE NOT NULL,
-ProfilePicture NVARCHAR(255) NOT NULL,
 CreatedDate DATETIME NOT NULL
 );
 
