@@ -8,6 +8,6 @@
 ### Whatsapp.sql
 * This file holds the syntax for creating the database, creating the tables, populating the tables with data, defining the relationships and query syntax to view specified attributes.
 
-### WhatsAppDB Table.csv and WhatsAppDB-2.PDF 
+### WhatsAppDB Table.csv and WhatsAppDB-2.pdf 
 * This file display the view created by the view query syntax.
 
