@@ -52,11 +52,11 @@ FOREIGN KEY (ReceiverId) REFERENCES Users(UserId)
 -- Populate the Messages table with 5 messages
 INSERT INTO Messages (ChatId, SenderId, ReceiverId, MessageText, SentDate)
 VALUES 
-(1, 1, 2, 'Hello Janet!', GETDATE()),
-(1, 2, 3, 'Hi Michael!', GETDATE()),
-(1, 3, 4, 'Whats up Adeleke?', GETDATE()),
-(2, 5, 1, 'Hi Joshua, Are u back from Airport?', GETDATE()),
-(2, 1, 5, 'Yes Wale, I am back!', GETDATE());
+(1, 1, 2, 'Hello Jane!', GETDATE()),
+(1, 2, 3, 'Hi Micky!, My man', GETDATE()),
+(1, 3, 4, 'Whats up John?', GETDATE()),
+(2, 5, 1, 'Hi Josh, Are u back from Airport?', GETDATE()),
+(2, 1, 5, 'Yes Bale, I am back!', GETDATE());
 
 
 SELECT 
